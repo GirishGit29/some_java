@@ -10,7 +10,10 @@ public class hellotest {
     public void testNothing() {
     }
 
-   
+    @Test
+    public void testWillAlwaysFail() {
+       fail("An error message");
+    }
 
 
 }
